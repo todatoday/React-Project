@@ -1,0 +1,181 @@
+// I use relative path instaed of absolute path
+$imagePath1 : "./../../images/";
+// ici j'ai utilisé deux variables
+$imageName1 : "#{$imagePath1}woman-1149909_1280.jpg";
+$imagePath2 : "./../../images/";
+$imageName2 : "#{$imagePath2}mannequin-2566559_1920.jpg";
+$imagePath3 : "./../../images/";
+$imageName3 : "#{$imagePath3}bracelet-ge856d9bc8_1920.jpg";
+
+ 
+
+
+$verysmall: 200px;
+$small: 500px;
+$average: 600px;
+$medium: 900px;
+$verySmall: 200px;
+
+ 
+
+
+.title {
+  
+  background-image: url(#{$imageName1});
+  filter: brightness(1);
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 360px;
+  padding-top: 20px;
+  margin-bottom: 180px;
+   
+
+  &:hover {
+    background-image: url(#{$imageName2});
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  h2 {
+    color: white;
+    margin: 60px 10px -70px 200px;
+
+   
+
+  }
+
+  .presentation {
+    color: white;
+    width: 400px;
+    margin: 100px 10px 0 90px;
+  }
+
+  .text {
+
+    width: 980px;
+  }
+  @media only screen and (max-width: $small){
+    
+  }
+  
+  
+  @media screen and (min-width: $verySmall) and (max-width: $small){
+    
+    // dans le fichier SASS quand en utilise le nesting 
+    height: 100%;
+    margin: 60px auto;
+    padding: 20px auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    -webkit-background-size: cover;
+    background: linear-gradient(rgba(27, 27, 29, 0.651), rgba(30, 68, 75, 0.5)),
+                url(#{$imageName3});
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h2{
+      
+      text-align: center;
+      display: flex;
+    }
+    .presentation{
+      text-align: center;
+      display: flex;
+      margin: 0 auto;
+      width: 200px;
+      height: 100%;
+      margin-bottom: 20px;
+    }
+  // on repete pas le selector de titre 
+  // donc en directement le css
+  
+    
+  h2{
+     
+    text-align: center;
+    margin: 40px auto;
+    
+  }
+  .presentation{
+  
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+ 
+ 
+    //some CSS
+    // @media only screen and (max-width: 300px) {
+    //   // width 300px
+    //   .title{
+    //     background-image: none;
+    //   }
+    // }
+    // @media screen and (min-width: $medium) {
+    //   //do Smth
+    // }
+  
+
+
+
+  // @media only screen and (max-width: 600px) {
+  //   .presentation {
+  //     display: flex;
+  //     flex-direction: column;
+  //     height: 200px;
+
+  //     font-size: 1rem;
+  //     padding: 10px;
+  //     margin-left: auto;
+  //     margin-right: auto;
+
+  //   }
+
+  //   .text {
+  //     text-align: center;
+  //     display: flex;
+
+  //     width: 500px;
+
+  //   }
+
+  // }
+  // @media only screen and (max-width: 200px) {
+  //   .title {
+  //     background-image: url("./../../images/cactus-4338616_1280-1.png");
+  //   }
+
+  //   .presentation {
+  //     height: 300px;
+  //     background-color: rgba(113, 83, 83, 0.394);
+
+  //   }
+
+  //   .presentation h1 {
+  //     color: white;
+  //   }
+
+  //   .presentation p {
+  //     color: white;
+  //     width: 160px;
+
+  //   }
+
+  // }
+
+}

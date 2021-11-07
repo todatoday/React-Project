@@ -1,0 +1,17 @@
+// variable pour utiliser des colours
+$color1 : #BFC4C9;
+// sont utilisées comme ça 
+// color: $color1 
+.App {
+    font-family: 'Patrick Hand', cursive;
+    // background-color: #BFC4C9;    
+    margin: 0px;
+    padding:0px
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+
+    a{
+        color:white
+    }

@@ -1,0 +1,102 @@
+/* .BijouxContainer{
+    margin: 0px;
+    padding: 0px;
+}
+.Produi-desc{
+    display: flex;
+    flex-direction: row;
+     
+}
+
+.nombre-produit{
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+    margin: 30px 20px 0px 40px;
+    height: 20px;
+     background-color: whitesmoke;
+     position: relative;
+}
+
+
+.nombre-produit::before{
+    content: "";
+    left: 200px;
+     right: 0;
+    height: 1px;
+    background-color: black;
+    width: 70%;
+    
+    position: absolute;
+    top: calc(60% - 1px);
+}
+.nombre-produit .produi-line{
+    display: inline-block;
+    padding: 0 30px;
+    background: whitesmoke;
+    position: relative;
+    z-index: 1;
+   
+}
+.prod-text{
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    margin: 30px 0px 0px 20px;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.prod-text h2 {
+    text-align: center;
+    padding: 10px;
+}
+*/
+
+/* articles */
+/* .bijoux-articles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: -600px 10px 10px 10px;
+    height: 100%;
+   
+    
+
+}
+
+.bijoux-items{
+     background-color:#E5E7E9; 
+    border: solid black 1px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.bij-element{
+    
+    margin: 10px;
+ 
+    
+}
+.bij-element button{
+    border: none;
+    padding: 10px 40px 10px 40px;
+    background-color: #A67557;
+    margin: 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.bij-element img{
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid black;
+    
+}
+ */
+
+  

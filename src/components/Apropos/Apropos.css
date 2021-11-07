@@ -1,0 +1,76 @@
+.apropos{
+ margin-top: 150px;
+    padding: 100px;
+ 
+     background-image: url("./../../images/bracelet-ge856d9bc8_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ 
+.display-flex{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color4);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+ 
+   
+     
+}
+.profil-container h2{
+    text-align: center;
+    
+}
+
+.profil-container {
+     
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+   
+     
+}
+.profil-dec h2{
+    text-align: center;
+}
+.profil-dec p {
+    margin: 20px;
+    
+}
+.profil-dec {
+      
+    color: black;
+     margin: 20px;
+     padding: 10px;
+     width: 100%;
+ }
+
+.profil-container img{
+    height: 150px;
+    width: 150px;
+    padding: 10px ;
+  
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    margin: 20px;
+   width: 100%;
+     
+     
+}
+.profil-container .link-image{
+    height: 50px;
+   width: 50px;
+   
+}
+ 
+ 

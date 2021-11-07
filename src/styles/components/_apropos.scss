@@ -1,0 +1,3 @@
+$verySmall: 200px;
+$small: 500px;
+@media screen and (min-width: $verySmall) and (max-width: $small){}

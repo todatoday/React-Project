@@ -1,0 +1,144 @@
+$ImagePath1 : "./../../images/";
+$ImageName1 : "#{$ImagePath1}sapphire-ring-2119613_1920.jpg";
+
+
+$small: 500px;
+$verySmall: 200px;
+
+$average: 700px;
+$medium: 900px;
+$betweenAver: 400px;
+// color variables
+$color3: #CEDEED;
+$colo4: #fafdff34;
+ 
+ 
+ 
+    
+    .footerContainer{
+    
+        background-color: #316A75;
+        margin-top: 100px;
+        
+   
+    .footer{
+        /* background-image: url('./../../images/121540606_2761228660815760_2103680647178972757_n.jpg'); */
+        
+        background-position: center;
+        background-size: cover;
+        background-size: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: transparent;
+        padding: 50px;
+        
+    
+     
+    }
+    .footerItem{
+        display: flex;
+        flex-direction: column;
+       background-color: transparent;
+        padding: 20px 60px 8px 60px;
+        margin: 50px 9px 8px 20px;
+        align-items: center;
+        justify-content: center;
+         
+        
+         
+    }
+    .footerItem h1 {
+        background-color: transparent;
+        color: white;
+    }
+    .footerItem ul {
+        background-color: transparent;
+    }
+    .footerItem ul li {
+        list-style: none;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .copyRight{
+        text-align: center;
+        padding: 20px;
+        color: white;
+    }
+    
+    .line{
+        
+        margin: 5px auto;
+    }
+    .vl{
+        border-left: 3px solid black;
+        height: 200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: -20px;
+        margin-top: 70px;
+    }
+    
+ 
+
+    @media screen and (min-width: $verySmall) and
+     (max-width: $small){
+       height: 100%;
+       text-align: center;
+
+      
+       .footerItem h1 {
+           color: $color3;
+           padding-bottom: 5px;
+       }
+      
+        .footer{
+           
+            display: flex;
+            flex-direction: column;
+             
+        }
+        .footerItem{
+        
+            border-bottom: 1px solid #000;
+            
+            
+        }
+        .footerItem ul{
+            
+            margin: 2px auto;
+            padding: 3px 6px 3px 6px;
+        }
+        .vl{
+            display: none;
+        }
+       
+     
+    }
+    @media screen and (min-width: 501px) and (max-width: $average){
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .footerItem{
+        
+            border-bottom: 1px solid #000;
+            
+            
+        }
+        .footerItem ul{
+            
+            margin: 1px auto;
+            padding: 2px 4px 2px 4px;
+        }
+        .vl{
+            display: none;
+        }
+
+    }
+        
+    
+
+    
+}

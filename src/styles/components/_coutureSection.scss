@@ -1,0 +1,163 @@
+$ImagePath1 : "./../../images/";
+$ImageName1 : "#{$ImagePath1}tailoring-2575930_1920.jpg";
+
+
+$verysmall: 200px;
+$small : 500px;
+
+
+$average: 700px;
+ 
+
+// color variables
+$color3: #CEDEED;
+$colo4: #fafdff34;
+
+
+.couture-section{
+    display: flex;
+    flex-direction: row;
+    background-image: url( #{$ImageName1});
+    background-position: center;
+    padding: 20px;
+    margin-top: 100px;
+    height: 640px;
+    
+    
+    @media screen and (min-width: $verySmall) and (max-width: $small){
+    //    display: flex;
+    //    flex-direction: column;
+    //    width: 100%;
+    //    flex-wrap: wrap;
+    //    height: 100%;
+    //    margin: 0px auto;
+    //    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: red;
+    background-position: center;
+    background-image: none;
+    //  background-image: url(#{$testImage});
+    background-position: center;
+    background-color: $colo4;
+      
+     
+       //  background-image: url(#{$testImage});
+    
+    //    background-color: $colo4;
+      
+    
+    
+       .couture-image{
+        height: 230px;
+        width: 240px;
+       }
+        img {
+          max-width: 100%;
+          max-height: 100%;
+          display: block;
+    }
+       
+        
+    .couture-desc {
+      
+        width: 300px;
+    
+        margin: 100px auto;
+       }
+       
+      .couture-desc p{
+        
+         padding: 0px;
+         margin: 0px auto;
+         // background-color: red;
+         // // background-color: red;
+         margin-top: -80px;
+        
+        
+     }
+    }
+
+    @media screen  and (min-width: 501px) and (max-width: $average){
+
+        background-image: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0px;
+         background-image: none;
+
+        .couture-image{
+            margin: 0px auto;
+            height: 400px;
+            width: 300px;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+        
+    }
+    .couture-desc{
+        width: 600px;
+    }
+    
+    .couture-image{
+        width: 500px;
+        background-color: white;
+        padding: 10px;
+        margin: 5px;
+        
+    }
+    
+    .couture-image img {
+        height: 600px;
+        width: 500px;
+        
+    }
+    .couture-desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px; 
+        margin-left: 20px;
+        margin-top: 100px;
+        color: white;
+        
+        
+    }
+    
+     
+    .couture-desc p{
+        color: white;
+        padding: 80px;
+    }
+    
+    .couture-desc button{
+    
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.2rem;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        border: none;
+        border: 0.5px solid black;
+        background-color: #BFC4C9;
+    }
+  
+    //  .couture-image{
+    //     height: 230px;
+    //     width: 240px;
+    //     margin: 5px auto;
+    //  }
+
+    
+}    
+

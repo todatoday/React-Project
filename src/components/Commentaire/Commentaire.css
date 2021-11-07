@@ -1,0 +1,26 @@
+
+.star{
+    font-size:40px ;
+    cursor: pointer;
+    transition: color 200ms;
+    padding: 3px;
+}
+ 
+input[type="radio"] {
+    display: none;
+} 
+
+.success-mssage{
+  
+    font-size: 1.2rem;
+
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    position: relative;
+    width: 600px;
+    padding: 1rem 1rem;
+     margin: 1rem auto ; 
+     border: 1px solid transparent; 
+     border-radius: .25rem;
+}

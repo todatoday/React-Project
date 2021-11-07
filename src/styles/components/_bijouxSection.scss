@@ -1,0 +1,179 @@
+// I use relative path instaed of absolute path
+$ImagePath1 : "./../../images/";
+ 
+// ici j'ai utilisé deux variables
+$ImageName1 : "#{$ImagePath1}sapphire-ring-2119613_1920.jpg";
+// $testImage : "#{$ImagePath5}girl-2227755_1920.jpg";
+
+// $imagePath2 : "./../../images/";
+// $imageName2 : "#{$imagePath2}mannequin-2566559_1920.jpg";
+// $imagePath3 : "./../../images/";
+// $imageName3 : "#{$imagePath3}bracelet-ge856d9bc8_1920.jpg";
+// media queries variables
+$verySmall: 200px;
+$small: 500px;
+
+$average: 700px;
+$medium: 900px;
+// color variables
+$color3: #CEDEED;
+$color4: #fafdff34;
+
+
+.Bijoux-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(#{$ImageName1});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 640px;
+    padding: 20px;
+     
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+
+    .Bijoux-Desc{
+        width: 600px;
+    }
+    .Bijoux-Desc button{
+    
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.2rem;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: #BFC4C9;
+    }
+    
+    .Bijoux-image{
+        width: 500px;
+        background-color: white;
+        padding: 10px;
+        margin: 5px;
+        
+    }
+    
+    .Bijoux-image img {
+        height: 600px;
+        width: 500px;
+         
+    }
+    @media screen and (min-width: $verySmall)
+     and (max-width: $small){
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        background-color: red;
+        background-position: center;
+        background-image: none;
+        //  background-image: url(#{$testImage});
+        background-position: center;
+        background-color: $color4;
+   
+       
+      
+
+        .Bijoux-Desc p{
+            margin-left: -20px;
+            padding: 0px;
+          
+            margin-top: -100px;
+           
+        }
+      
+         
+       
+
+        .Bijoux-image{
+            height: 230px;
+            width: 240px;
+           
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+        .Bijoux-Desc button {
+            margin: 0px;
+            margin-bottom: 30px;
+            padding: 0px;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 1.2rem;
+            padding: 10px 20px 10px 20px;
+            border-radius: 20px;
+            border: 0.5px solid black;
+            background-color: $color3;
+            
+            
+             
+        }
+    }
+
+    @media screen and (min-width: 501px) and (max-width: $average){
+        background-image: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        align-items: center;
+        height: 100%;
+        padding: 0px;
+
+        .Bijoux-image{
+            height: 400px;
+            width: 300px;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+        .Bijoux-Desc{
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .Bijoux-Desc p{
+           
+           
+            margin: 0px auto;
+            padding: 0px;
+        }
+        .Bijoux-Desc button{
+            border: 1px solid black;
+            margin: 10px auto;
+             
+        }
+
+    }
+    .Bijoux-Desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 600px; 
+        margin-left: 20px;
+        margin-top: 100px;
+        color: white;
+        
+        
+    }
+    
+     
+    .Bijoux-Desc p{
+        color: white;
+        padding: 80px;
+    }
+    
+  
+     
+}

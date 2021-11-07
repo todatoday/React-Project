@@ -1,0 +1,60 @@
+.imageGalery{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+   
+     margin-bottom: 100px;
+    color: #45594E;
+}
+
+.flex_items h3 {
+    font-family: 'Playfair Display', serif;
+   background-color: transparent;
+  padding: 10px;
+  color: black;
+}
+.flex_items {
+  
+    text-align: center;
+    background-color: white;
+  
+   width: 350px;
+    padding: 15px 5px 0px 5px;
+    margin: 5px;
+    
+}
+
+.flex_items img {
+    height: 400px;
+    
+}
+img{
+    width:100%;
+    
+    height:100%;
+    display:block;
+}
+
+.ajout{
+    font-family: 'Playfair Display', serif;
+    margin: 10px;
+     background-color: white;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    color: black;
+     font-weight: bold;
+  
+    border: solid 1px rgb(196, 189, 189);
+
+}
+.ajout:hover{
+    background-color: #D9D9D9;
+    color: black;
+    border: solid 1px black;
+    
+}

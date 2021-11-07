@@ -1,0 +1,102 @@
+.container-bijoux{
+    margin: 100px 200px 100px 200px;
+    
+    padding: 0px;
+    background-color: #FDFDFD;
+    height: 100%;
+}
+
+.container-bij-frex{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+    margin-bottom: 100px;
+}
+.detail-images{
+    display: flex;
+    flex-direction: column;
+     
+
+}
+.image-princil{
+    height: 100%
+}
+
+.imag{
+    background-image: url('./../../images/bo-perles-bleu-ciel (1).jpg');
+    background-position: center;
+    background-size: 100%;
+    height: 220px;
+    width: 260px;
+    background-position: cover;
+    padding: 0px 10px 10px 10px;
+    margin: 10px;
+
+}
+
+ 
+.description-bijoux{
+
+ 
+    margin: 10px 10px 10px 50px;
+    padding: 10px 40px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.description-bijoux h2{
+    padding: 10px;
+}
+
+.description-bijoux button{
+    font-family: 'Patrick Hand', cursive;
+    border: none;
+    background-color: #b2d6e7;
+    margin: 20px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.container-bij-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     padding: 10px;
+      
+}
+.container-desc p{
+    padding: 10px;
+}
+
+.imag-container{
+  height: 400px;
+  width: 300px;
+
+
+}
+
+
+
+/* j'ai fait un CSS basique, le but étant de montrer la technique pour colorer le fond de l'étoile 1 si on est sur la 1ère étoile, les étoiles 1 et 2 si on est sur la 2ème étoile, etc */
+.C2etoiles{
+   
+    display:inline-block;
+    cursor:pointer;
+}
+.C2etoiles:hover{
+    background:green;
+}
+.C2etoiles div{
+    display:inline-block;
+    padding:5px;
+}
+.C2etoiles div::after{
+    content:"\002605";
+
+     /* une étoile en Unicode */
+}

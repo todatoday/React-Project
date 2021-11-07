@@ -1,0 +1,466 @@
+/* la section de presentation du site */
+$ImagePath1 : "./../../images/";
+$ImageName1 : "#{$ImagePath1}sapphire-ring-2119613_1920.jpg";
+
+$small: 500px;
+$verysmall: 200px;
+
+
+$average: 600px;
+$medium: 900px;
+ 
+// color variables
+$color3: #CEDEED;
+$colo4: #fafdff34;
+ 
+ 
+.accueil{
+ 
+ margin: 0px;
+ padding: 0px;
+
+.accueil__pres{
+    background-color: red;
+    margin: 50px 100px;
+    padding: 1rem;
+     font-size: 1.1rem;
+
+ 
+ 
+}
+    .bijou__section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: red;
+    }
+   
+
+    
+    
+    .description{
+        color: black;
+        margin-bottom: 100px;
+    }
+    .description p{
+        padding-right: 50px;
+        padding-left: 50px;
+        
+    }
+    h1{
+        text-align: center;
+        margin: 20px;
+        
+    }
+    
+    .descri-sect{
+        padding: 40px;
+        margin-top: 100px;
+    }
+    
+    .descri-bloc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 60px;
+        margin: 50px;
+    }
+    .descri-bloc p{
+        padding: 40px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* le display flex avec l'image au milieux */
+    .levels-content{
+        
+        color: black;
+        font-family: 'PT Sans', sans-serif;
+        font-family: 'STIX Two Text', serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+        margin: 200px 20px 200px 20px;
+        
+        
+    }
+    
+    .section-folio{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    .levels-content h2{
+        text-align: center;
+    }
+    .levels-content p{
+        padding: 10px;
+    }
+    
+    .image-leve {
+        height: 80%;
+        width: 90%;
+        border: 9px solid whitesmoke;
+        
+        
+    }
+    .image-leve img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    .description-sect{
+        display: flex;
+        flex-direction: row;
+        padding: 60px;
+        justify-content: center;
+        justify-content: space-between;
+        
+        margin-top: 60px;
+        margin-bottom: 60px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        
+    }
+    .text-flexxx > p {
+        background-color: rgba(225, 226, 193, 0.666);
+        text-align: center;
+        padding: 50px;
+        
+    }
+    .text-flexxx p:hover{
+        color: white;
+        background-color: rgba(246, 246, 84, 0.646);
+        
+    }
+    .textPar p{
+        background-color: thistle;
+        
+        padding-left: 1px;
+        
+    }
+    
+    
+    .text-flexxx{
+        background-image: url('./../../images/eiffel-tower-3349075_640.jpg');
+        background-position: center;
+        background-position: cover;
+        text-align: center;
+        background-repeat: no-repeat; 
+        color: black;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    /* flex images */
+    .elemn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        
+        
+        
+        /* background-color: #1f2029; */
+        /* padding: 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+        
+    }
+    
+    
+    
+    /* test */
+    
+    .container{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        
+    }
+    .container .imagesss{
+        display: block;
+        width: 200px;
+        height: 200px;
+        
+    }
+    
+    .container .overlay{
+        position: absolute;
+        transition: all .3s ease;
+        opacity: 0;
+        background-color: #eee;
+    }
+    
+    .container:hover .overlay{
+        opacity:1;
+    }
+    
+    .container .overslide{
+        height: 100%;
+        width: 0;
+        top: 0;
+        left: 0;
+        
+    }
+    
+    .overlay .text{
+        color: white;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    .display-flex{
+        display: flex;
+        flex-direction: row;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        
+        
+        
+        
+    }
+    
+    .image-flex p{
+        padding-top: 10px;
+    }
+    .image-flex{
+        flex: 2;
+        margin: 20px 10px 10px 10px;
+        padding: 30px 10px 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    }
+    .text-flex{
+        flex: 1;
+        padding: 10px;
+        
+        
+    }
+    .text-flex h2{
+        text-align: center;
+    }
+    .text-flex p {
+        padding-top: 50px;
+    }
+    
+    
+    /* text-description */
+    
+    .text-desc{
+        padding:100px;
+        margin: 120px;
+        display: flex;
+        flex-direction: row;
+    }
+    .text-desc h2 {
+        text-align: center;
+        padding: 10px;
+    }
+    .text-desc p {
+        
+        margin: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    /* slider-image */
+    
+    /* hover me */
+    .sliderImage{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    .sliderImage .imageslid{
+        height: 140px;
+        width: 140px;
+        padding: 20px 10px 10px 10px;
+        
+    }
+    
+    .sliderImage .imageitem1:hover{
+        transform: translateY(0) scale(1.1);
+        border-radius: 10px;
+    }
+    
+    .sliderImage .imageslid:hover{
+        transform: translateY(0) scale(1.1);
+        border-radius: 10px;
+    }
+    .sliderImage .imageitem1{
+        height: 200px;
+        width: 200px;
+    }
+    
+    
+    
+    
+    
+    .image-colo{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 20px;
+        
+    }
+    
+    .imag-tem p {
+        padding: 20px;
+    }
+    .imag-tem{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(235, 240, 247);
+        margin: 5px;
+        
+    }
+    
+    .image-colo img{
+        height: 440px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    
+    @media only screen and (max-width: 600px){
+        .levels-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            
+        }
+        .section-folio{
+            padding: 10px;
+        }
+        
+        .display-flex{
+            
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+        
+        .description-sect{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (max-width: 200px){
+        .elemn{
+            margin: 80px 5px 20px 5px;
+            
+        }
+        
+        
+        .display-flex{
+            
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            width: 180px;
+        }
+        .image-flex{
+            margin: 5px;
+            padding: 0px;
+            width: 170px;
+            
+        }
+        .text-flex p{
+            margin: 0px;
+            padding: 0px;
+            width: 170px;
+            flex-wrap: wrap;
+            
+        }
+        .description-sect{
+            
+            
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        .text-flexxx{
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
+    @media screen and (min-width: $verySmall) and (max-width: $small){
+      
+        section{
+            
+    
+            .descri-bloc{
+                
+                display: flex;
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+    
+    
+    
+            }
+        }
+    }
+}
